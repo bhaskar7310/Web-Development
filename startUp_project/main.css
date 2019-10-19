@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    line-height: 1.4;
+}
+
+.wrapper{
+    width: 85%;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.normal-button{
+    display: inline-block;
+    padding: 0.8em 1.2em;
+    text-transform: uppercase;
+}
+
+.dark-button{
+    border: 1px solid #E8CE0E; 
+}
+
+.dark-button:hover{
+    background: #E8CE0E;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    min-height: 70px;
+    background: #333333;
+    padding-top: 20px;
+}
+
+header #brand{
+    float: left;
+}
+
+#brand a{
+    font-size: 20px;
+    color: #E8CE0E;
+}
+
+header a{
+    text-transform: uppercase; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav {
+    float: right;
+    margin-top: 1.5px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #E8CE0E;
+}
+
+a:active{
+    text-decoration: none;
+    color: #E8CE0E;
+}
+
+/* Showcase Area */
+#showcase {
+    background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase h1{
+    margin-top: 0;
+    font-size: 4.5em;
+}
+
+#showcase p{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+#showcase .normal-button{
+    font-size: 1.2em;
+    background: #626464;
+    color: #fff;
+}
+
+#showcase .normal-button:hover{
+    background: #333333;
+    color: #E8CE0E;
+}
+
+/* About Me Section */
+#about_me{
+    padding: 100px 150px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6em;
+}
+
+#about_me img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 80vh;
+}
+
+#about_me div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#about_me h1{
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+#about_me p{
+    line-height: 2.0;
+    padding-top: 20px;
+}
+
+/* Services Section */
+.dark-section{
+    background: #333333;
+    min-height: 80vh;
+    padding: 100px;
+    color: #fff;
+}
+
+#services{
+    text-align: center;
+}
+#services .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dark-section-header{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.card-wrapper{
+    padding: 70px 0;
+}
+
+.card h4{
+    color: #E8CE0E; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card p{
+    line-height: 2;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+    padding: 100px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials h1{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#testimonials img{
+    width: 250px;
+    height: 250px;
+    border: 4px #CACFCF solid;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.content {
+    padding: 20px 150px;
+    text-align: center;
+}
+
+/* Contact me */
+.form-wrapper{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form div{
+    padding: 1em 0;
+}
+
+label{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E8CE01;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    color: #333;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 1.5px solid #E8CE01;
+
+}
+
+form button{
+    background: #333333;
+    color: #E8CE01;
+}
+/* Footer */
+footer {
+    background: #2a2a2a;
+    color: grey;
+    min-height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+footer li{
+    float: left;
+}
+
+.follow-me li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 16px;
+}
+
+footer p{
+    margin: 10px 0 0 0;
+}
+
+.conditions li a{
+    color: grey;
+}
+
+.conditions li a:hover{
+    color: lightgray;
+}
